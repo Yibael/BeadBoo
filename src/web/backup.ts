@@ -4,5 +4,5 @@ export function parseBackup(text:string):Project[]{
  const data=JSON.parse(text);
  if(data?.schemaVersion===1&&Array.isArray(data.projects))return validateProjects(data.projects);
  if(data?.version===1&&data.options){const {version,options,completed,...pattern}=data;const p=newProject('导入的图纸',pattern,options);p.completed=completed??[];return validateProjects([p]);}
- throw new Error('请选择豆豆工坊导出的 JSON 图纸或备份文件。');
+ throw new Error('请选择 BeadBoo 导出的 JSON 图纸或备份文件。');
 }

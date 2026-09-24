@@ -1,5 +1,5 @@
 {
-  "name": "bead-web",
+  "name": "beadboo",
   "version": "0.1.0-alpha.3",
   "private": true,
   "packageManager": "pnpm@10.28.2",
@@ -40,5 +40,14 @@
   },
   "engines": {
     "node": "^22.13.0 || ^24.3.0 || >=25.0.0"
-  }
+  },
+  "description": "A local-first bead pattern maker and progress tracker for the web.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yibael/BeadBoo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yibael/BeadBoo/issues"
+  },
+  "homepage": "https://github.com/Yibael/BeadBoo#readme"
 }

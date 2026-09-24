@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "豆豆工坊",
-    "slug": "bead-studio-web",
+    "name": "BeadBoo",
+    "slug": "beadboo",
     "version": "0.1.0",
     "orientation": "portrait",
     "scheme": "beadstudio",
@@ -17,7 +17,7 @@
     },
     "web": {
       "bundler": "metro",
-      "name": "豆豆工坊",
+      "name": "BeadBoo",
       "output": "single"
     },
     "plugins": [

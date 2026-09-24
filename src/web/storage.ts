@@ -3,11 +3,12 @@ let database: Promise<IDBDatabase> | undefined;
 function openDatabase() {
   return database ??= new Promise<IDBDatabase>((resolve,reject)=>{
     if(!globalThis.indexedDB){reject(new Error('浏览器不支持本地存储，请换用 Safari 或 Chrome。'));return;}
+    // Keep the original database name so rebranding preserves existing projects and color cards.
     const request=indexedDB.open('bead-studio-web',1);
     request.onupgradeneeded=()=>request.result.createObjectStore('snapshots');
     request.onsuccess=()=>{const db=request.result;db.onversionchange=()=>{db.close();database=undefined;};resolve(db);};
     request.onerror=()=>{database=undefined;reject(new Error('本地数据暂时无法读取，请检查浏览器设置。'));};
-    request.onblocked=()=>{database=undefined;reject(new Error('请关闭其他豆豆工坊页面后重试。'));};
+    request.onblocked=()=>{database=undefined;reject(new Error('请关闭其他 BeadBoo 页面后重试。'));};
   });
 }
 export function browserStorage(namespace:string):AsyncStoragePort {
