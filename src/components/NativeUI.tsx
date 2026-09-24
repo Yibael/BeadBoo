@@ -150,7 +150,7 @@ export function PageTransition({ children, page }: PropsWithChildren<{
 const styles = StyleSheet.create({
     solid: { backgroundColor: '#fff', borderWidth: StyleSheet.hairlineWidth, borderColor: '#d8dadd' },
     disabled: { opacity: 0.4 }, pressed: { opacity: 0.78 },
-    dock: { position: 'absolute', shadowColor: '#27303c', shadowOpacity: 0.12, shadowRadius: 20, shadowOffset: { width: 0, height: 6 }, elevation: 8 },
+    dock: { position: 'absolute', borderRadius: 34, shadowColor: '#27303c', shadowOpacity: 0.12, shadowRadius: 20, shadowOffset: { width: 0, height: 6 }, elevation: 8 },
     dockSurface: { borderRadius: 34, padding: 5 },
     tabRow: { flexDirection: 'row', height: 58 },
     tab: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 4 },

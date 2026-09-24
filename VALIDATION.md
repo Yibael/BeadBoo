@@ -21,3 +21,9 @@
 - Chrome 实际双触点验证：移除 meta 缩放限制后，CSS 仍使 visualViewport.scale 保持不变。
 - Chrome 端到端回归：画布双指缩放、拖动、创建和进度等通过。
 - WebKit：viewport 配置和可取消 gesture 事件拦截通过；实际 iPhone 捏合仍需真机确认。
+
+## 底部导航栏阴影修复（2026-09-24）
+
+- TypeScript 与静态构建通过。
+- Chrome 393×852 移动视口对比：原样式可复现矩形白边；外层与导航栏统一为 34px 圆角后，阴影贴合胶囊轮廓。
+- 点击「我的」可正常切换页面；本次未进行 iPhone 真机复验。
