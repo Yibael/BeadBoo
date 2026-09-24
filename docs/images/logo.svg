@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">BeadBoo 九宫格拼豆图标</title>
+  <rect width="512" height="512" rx="112" fill="#f7f8fa"/>
+  <g fill="none" stroke-width="26.112">
+    <g stroke="#bd7857">
+      <circle cx="153.6" cy="153.6" r="24.32"/>
+      <circle cx="256" cy="153.6" r="24.32"/>
+      <circle cx="153.6" cy="256" r="24.32"/>
+      <circle cx="256" cy="256" r="24.32"/>
+      <circle cx="153.6" cy="358.4" r="24.32"/>
+      <circle cx="256" cy="358.4" r="24.32"/>
+    </g>
+    <g stroke="#9caf9f">
+      <circle cx="358.4" cy="153.6" r="24.32"/>
+      <circle cx="358.4" cy="256" r="24.32"/>
+      <circle cx="358.4" cy="358.4" r="24.32"/>
+    </g>
+  </g>
+</svg>
