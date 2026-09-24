@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mixiaowo-reference-286",
+    "source": "mixiaowo-290",
+    "included": 286,
+    "excluded": [
+      "UNKNOWN-01",
+      "UNKNOWN-02",
+      "UNKNOWN-03",
+      "UNKNOWN-04"
+    ],
+    "sourceSha256": "1a6c19b8a0e433f98fd1ddbafede344b96469ecb15153bcba388ea06cc4ffbe0",
+    "upstreamExactMatches": 286,
+    "additionalCodeCoverage": 286,
+    "note": "交叉映射用于核对色号身份，不合并另一来源的 RGB，也不等于官方认证。"
+  },
+  {
+    "id": "panpan-reference-285",
+    "source": "panpan-289",
+    "included": 285,
+    "excluded": [
+      "UNKNOWN-01",
+      "UNKNOWN-02",
+      "UNKNOWN-03",
+      "UNKNOWN-04"
+    ],
+    "sourceSha256": "853168b6a78527fffeeb58d1dc4fab79c999c2a029c92dd05b9167898f43c105",
+    "upstreamExactMatches": 285,
+    "additionalCodeCoverage": 285,
+    "note": "交叉映射用于核对色号身份，不合并另一来源的 RGB，也不等于官方认证。"
+  }
+]

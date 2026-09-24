@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "豆豆工坊",
+    "slug": "bead-studio-web",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "beadstudio",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "art.beadstudio.mobile",
+      "buildNumber": "3"
+    },
+    "android": {
+      "package": "art.beadstudio.mobile",
+      "versionCode": 3
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "豆豆工坊",
+      "output": "single"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "选择一张图片，在设备上制作拼豆图纸。",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "extra": {
+      "releaseVersion": "0.1.0-alpha.3"
+    }
+  }
+}

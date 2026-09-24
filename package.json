@@ -1,0 +1,44 @@
+{
+  "name": "bead-web",
+  "version": "0.1.0-alpha.3",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "pnpm run build && pnpm start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "build": "node scripts/build.mjs",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "expo": "~57.0.22",
+    "expo-file-system": "~57.0.7",
+    "expo-glass-effect": "~57.0.3",
+    "expo-haptics": "~57.0.3",
+    "expo-image-manipulator": "~57.0.17",
+    "expo-image-picker": "~57.0.17",
+    "expo-sharing": "~57.0.19",
+    "expo-status-bar": "~57.0.1",
+    "fast-png": "^7.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "~19.2.2",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.62.1",
+    "tsx": "^4.20.0",
+    "typescript": "~6.0.3"
+  },
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || >=25.0.0"
+  }
+}

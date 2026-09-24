@@ -1,0 +1,122 @@
+[
+  {
+    "code": "MH2",
+    "name": "MH2",
+    "hex": "#ffffff"
+  },
+  {
+    "code": "MH3",
+    "name": "MH3",
+    "hex": "#9b9b9b"
+  },
+  {
+    "code": "MH7",
+    "name": "MH7",
+    "hex": "#000000"
+  },
+  {
+    "code": "MA1",
+    "name": "MA1",
+    "hex": "#fff6d4"
+  },
+  {
+    "code": "MA4",
+    "name": "MA4",
+    "hex": "#ffdf58"
+  },
+  {
+    "code": "MA7",
+    "name": "MA7",
+    "hex": "#ff8837"
+  },
+  {
+    "code": "MA14",
+    "name": "MA14",
+    "hex": "#ff6510"
+  },
+  {
+    "code": "MA23",
+    "name": "MA23",
+    "hex": "#f0cbb1"
+  },
+  {
+    "code": "MB2",
+    "name": "MB2",
+    "hex": "#79cd41"
+  },
+  {
+    "code": "MB3",
+    "name": "MB3",
+    "hex": "#82d7a1"
+  },
+  {
+    "code": "MB8",
+    "name": "MB8",
+    "hex": "#08774f"
+  },
+  {
+    "code": "MB9",
+    "name": "MB9",
+    "hex": "#183823"
+  },
+  {
+    "code": "MC3",
+    "name": "MC3",
+    "hex": "#73c0df"
+  },
+  {
+    "code": "MC7",
+    "name": "MC7",
+    "hex": "#0588cc"
+  },
+  {
+    "code": "MC12",
+    "name": "MC12",
+    "hex": "#1c375a"
+  },
+  {
+    "code": "MD6",
+    "name": "MD6",
+    "hex": "#ad92e9"
+  },
+  {
+    "code": "MD7",
+    "name": "MD7",
+    "hex": "#5f2d91"
+  },
+  {
+    "code": "ME3",
+    "name": "ME3",
+    "hex": "#ffa0c3"
+  },
+  {
+    "code": "ME5",
+    "name": "ME5",
+    "hex": "#da5b95"
+  },
+  {
+    "code": "MF4",
+    "name": "MF4",
+    "hex": "#c7270d"
+  },
+  {
+    "code": "MF5",
+    "name": "MF5",
+    "hex": "#be0a27"
+  },
+  {
+    "code": "MG7",
+    "name": "MG7",
+    "hex": "#ac745b"
+  },
+  {
+    "code": "MG8",
+    "name": "MG8",
+    "hex": "#694a42"
+  },
+  {
+    "code": "MG14",
+    "name": "MG14",
+    "hex": "#8d6242"
+  }
+]
