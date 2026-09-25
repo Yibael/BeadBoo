@@ -1,0 +1,14 @@
+name: beadboo
+
+services:
+  web:
+    build: .
+    image: beadboo:local
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

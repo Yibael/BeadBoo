@@ -6,3 +6,13 @@ work/
 .env*
 *.log
 .DS_Store
+
+# Local deployment settings; commit only reusable Compose examples.
+compose*.yaml
+compose*.yml
+docker-compose*.yaml
+docker-compose*.yml
+!compose*.example.yaml
+!compose*.example.yml
+!docker-compose*.example.yaml
+!docker-compose*.example.yml

@@ -1,0 +1,14 @@
+node_modules
+.pnpm-store
+dist
+.expo
+.git
+work
+outputs
+.env*
+*.log
+.DS_Store
+compose*.yaml
+compose*.yml
+docker-compose*.yaml
+docker-compose*.yml
