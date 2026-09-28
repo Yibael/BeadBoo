@@ -1,10 +1,7 @@
 import {build} from 'esbuild';
-import {readFile,writeFile,mkdir,readdir,rm} from 'node:fs/promises';
+import {readFile,writeFile,readdir,rm} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
-import {encode} from 'fast-png';
-await mkdir('public/icons',{recursive:true});
-for(const [size,name] of [[192,'icon-192'],[512,'icon-512'],[180,'apple-touch-icon']]){const data=new Uint8Array(size*size*4);for(let y=0;y<size;y++)for(let x=0;x<size;x++){let color=[247,248,250];for(let row=0;row<3;row++)for(let col=0;col<3;col++){const d=Math.hypot(x-size*(.3+col*.2),y-size*(.3+row*.2));if(d<size*.073&&d>size*.022)color=col===2?[156,175,159]:[189,120,87];}data.set([...color,255],(y*size+x)*4);}await writeFile(`public/icons/${name}.png`,encode({width:size,height:size,data,channels:4}));}
 for(const file of await readdir('public'))if(/^pattern-worker-.*\.js$/.test(file))await rm(`public/${file}`);
 const bundle=await build({entryPoints:['src/web/worker.ts'],bundle:true,minify:true,write:false,platform:'browser',target:['safari16','chrome100'],format:'iife'});
 const hash=createHash('sha256').update(bundle.outputFiles[0].contents).digest('hex').slice(0,12),worker=`pattern-worker-${hash}.js`;

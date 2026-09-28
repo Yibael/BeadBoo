@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/logo.svg" width="112" height="112" alt="BeadBoo 九宫格拼豆图标">
+  <img src="docs/images/logo.svg" width="112" height="112" alt="BeadBoo 拼豆图标">
 </p>
 
 <h1 align="center">BeadBoo</h1>
